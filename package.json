@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "watch-css": "npx tailwindcss -i ./priv/static/input.css -o ./priv/static/styles.css --watch",
+    "build-css-prod": "npx tailwindcss -i ./priv/static/input.css -o ./priv/static/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "emarifer",
+  "license": "MIT",
+  "devDependencies": {
+    "daisyui": "^4.12.22",
+    "tailwindcss": "^3.4.17"
+  }
+}

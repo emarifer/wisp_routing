@@ -1,0 +1,10 @@
+*.beam
+*.ez
+/build
+erl_crash.dump
+*.html
+styles.css
+
+
+tmp
+node_modules
