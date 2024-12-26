@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Kanit-Regular.woff2") format("woff2");
+}
